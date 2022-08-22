@@ -15,7 +15,7 @@ const to_user_hxx = 'om-Vy6LZYbzca6xKghw6sBmyVi94'
 
 const to_user_qxx = 'om-Vy6LQJZd7xtNXmC1-z55386mY'
 
-const template_id = 'NGRNDcmLKsKCyqYTxzVOq0NxXDEJKBcdLrNl_unQa-c'
+const template_id = 'uICcIRJ4Xh1QEtccdrqob_4qIeDgsHZeuHEJIgFuMjM'
 
 /**
  * 
@@ -147,7 +147,7 @@ const getCaihunData = async () => {
       tianqi,
       shiju,
       wanan,
-      hunli: Math.abs(Math.max(0, timesize(today, '2022.10.3'))),
+      hunli: Math.abs(Math.max(0, timesize('2022.10.3', today))),
       love_day: timesize(today, '2019.12.28'),
       married: Math.abs(timesize(today, '2022.8.4')),
     };
@@ -290,7 +290,6 @@ const sendMessage = async (token, user = to_user_qxx, name = 'QXX') => {
 getToken();
 
 
-// {{date.DATA}} - {{week.DATA}} 
 // 当前城市：{{city.DATA}} 
 // 明日天气：{{weather.DATA}} 
 // 明日风力: {{windspeed.DATA}}

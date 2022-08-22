@@ -21,7 +21,7 @@ const to_user_hxx = 'om-Vy6LZYbzca6xKghw6sBmyVi94'
 
 const to_user_qxx = 'om-Vy6LQJZd7xtNXmC1-z55386mY'
 
-const template_id = 'hNFu2m0lswcgaLm9fKBJbW47fZZwZSHVGnD6VXo4-h4'
+const template_id = '7UvpnuCpnzwtyIeswRHyzbhBY99uv8jvMbTRa_V6-Q4'
 
 /**
  * 
@@ -292,7 +292,7 @@ const sendMessage = async (token, user = to_user_qxx, name = 'QXX') => {
 getToken();
 
 
-// {{date.DATA}} - {{week.DATA}} 
+// {{date.DATA}}  {{week.DATA}} 
 // 城市：{{city.DATA}} 
 // 天气：{{weather.DATA}} 
 // 风力: {{windspeed.DATA}}
