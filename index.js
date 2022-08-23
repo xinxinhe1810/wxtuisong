@@ -199,7 +199,7 @@ const sendMessage = async (token, user = to_user_qxx, name = 'QXX') => {
             color: "#173177",
           },
           zaoan: {
-            value: '今日三生有幸',
+            value: zaoan || '今日三生有幸',
             color: '#76BA99',
           },
           Date: {
